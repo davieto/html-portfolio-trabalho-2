@@ -195,9 +195,9 @@ footer p {
 
 
 /* RESPONSIVIDADE */
-
-@media (max-width: 1050px){
   /* INICIO MAIN */
+@media only screen and (max-width: 1050px){
+
   .main h1{
     font-size: 45px;
   }
@@ -256,3 +256,64 @@ footer p {
   /* FIM RODAPE */
 
 }
+
+
+  /* fim contato */
+
+    /* Inicio contato */
+    @media only screen and (min-width: 992px){
+    .imgcontatos{
+      width: 50px;
+      height: 20px;
+  }
+  .contato{
+      font-style: italic;
+      
+  }
+
+
+    .teste-contato{
+      margin-inline-start: 000px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .margem{
+    text-align: center;
+  }
+
+  form {
+    margin-left: 0px;
+}
+label.menu-section {
+  margin-left: 00px;
+}
+
+.container {
+width: 80%;
+margin: 0 auto;
+padding: 20px;
+background-color: #e4e4e4;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-top: 50px;
+}
+
+h2 {
+color: #333;
+}
+
+label {
+font-weight: bold;
+}
+
+.margem-contato{
+margin-left: 190px;
+}
+
+.botao{
+margin-left: 350px;
+}
+}
+  /* fim contato */
